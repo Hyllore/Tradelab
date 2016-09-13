@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>Bannière</title>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<script type="text/javascript">
+    	    var x = 4;
+		    function offre()
+		    {
+		        x++;
+	        	document.images[2].src="offres.jpg";
+	        	window.setTimeout("orange();",500);
+	    	}
+	    	function frame0()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-163px";
+        		elem.style.opacity = "0.3";
+	    	}
+	    	function frame1()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-143px";
+        		elem.style.opacity = "0.3";
+	    	}
+	    	function frame2()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-123px";
+        		elem.style.opacity = "0.5";
+	    	}
+	    	function frame3()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-103px";
+        		elem.style.opacity = "0.5";
+	    	}
+	    	function frame4()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-83px";
+        		elem.style.opacity = "0.7";
+	    	}
+	    	function frame5()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-63px";
+        		elem.style.opacity = "0.7";
+	    	}
+	    	function frame6()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-43px";
+        		elem.style.opacity = "0.9";
+	    	}
+	    	function frame7()
+	    	{
+	    	    var elem = document.getElementById('happy');
+	    	    elem.style.marginLeft = "-23px";
+        		elem.style.opacity = "0.9";
+	    	}
+	        function frame8()
+	    	{
+	    	    var elem = document.getElementById('happy');
+        		elem.style.marginLeft = "0px";
+        		elem.style.opacity = "1";
+	    	}
+	    	function orange()
+	    	{
+        		document.images[2].src="offres2.jpg";
+          		if (x < 4)
+	        	{
+	            	window.setTimeout("offre();",200);
+        		}
+        		else
+        		{
+        		    setTimeout("frame0();",100);
+        		    setTimeout("frame1();",150);
+        		    setTimeout("frame2();",200);
+        		    setTimeout("frame3();",250);
+        		    setTimeout("frame4();",300);
+        		    setTimeout("frame5();",350);
+        		    setTimeout("frame6();",400);
+        		    setTimeout("frame7();",450);
+        		    setTimeout("frame8();",500);
+            		x = 0;
+            		window.setTimeout("offre();",500);
+        		}
+    		}
+		</script>
+	</head>
+	<body onLoad="orange();">
+    	<center>
+    	    <div id="main-box">
+    	         <img src="top.jpg"/>
+    	         <img src="happy.jpg" id="happy"/>
+        	     <a href="http://www.boulanger.com/evenement/Happy-Essentiels"><img src="offres2.jpg" id="offre2"/></a>
+        	     <img src="down.jpg" />
+    	    </div>
+   	</body>
+</html>

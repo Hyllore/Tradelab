@@ -1,0 +1,22 @@
+#main-box
+{
+    position: relative;
+}
+
+#offre2
+{
+    margin-right: 161px;
+}
+
+#top
+{
+    margin-right: 139px;
+}
+
+#down
+{
+    position: absolute;
+    margin-right: 0px;
+    top: 0px;
+    width: 150px;
+}

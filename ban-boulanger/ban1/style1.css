@@ -1,0 +1,22 @@
+#main-box
+{
+display: block;
+background-color:#f8a700;
+width: 160px;
+height: 600px;
+overflow: hidden;
+}
+
+#happy
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -163px;
+    opacity: 0.3;
+}
+
+#offre2
+{
+    margin-top: 5px;
+    margin-bottom: 38px;
+}

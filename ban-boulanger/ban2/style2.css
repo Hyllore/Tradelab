@@ -1,0 +1,39 @@
+#main-box
+{
+display: block;
+position: relative;
+background-color:#f8a700;
+width: 300px;
+height: 250px;
+overflow: hidden;
+}
+
+#happy
+{
+    margin-top: -37px;
+    margin-bottom: 10px;
+    margin-right: 134px;
+    opacity: 0.3;
+}
+
+#offre2
+{
+    margin-top: -8px;
+    margin-bottom: 38px;
+    margin-right: 133px;
+}
+
+#top
+{
+    margin-right: 135px;
+    width: 161px;
+}
+
+#down
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 140px;
+    height: 253px;
+}

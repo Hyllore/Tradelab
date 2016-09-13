@@ -1,0 +1,46 @@
+#main-box
+{
+display: block;
+background-color:#f8a700;
+width: 728px;
+height: 90px;
+overflow: hidden;
+}
+
+#happy 
+{
+    margin-top: 0px;
+    position: relative;
+    top: -88px;
+    margin-left: -176px;
+    right: -340px;
+    margin-right: 83px;
+}
+
+#offre2 
+{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 5px;
+    margin-bottom: 144px;
+    right: -276px;
+    margin-right: 125px;
+}
+
+#top
+{
+    margin-right: -124px;
+    margin-left: -386px;
+    margin-bottom: 86px;
+    width: 161px;
+}
+
+#down
+{
+    position: relative;
+    margin-right: -216px;
+    right: -187px;
+    top: -2px;
+    width: 118px;
+    height: 211px;
+}
