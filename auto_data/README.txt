@@ -12,7 +12,7 @@ Ceci afin d'avoir acces à la fonction utf8_encode();.
 
 UTILISATION :
 
-php auto_data.php [lien du flux csv] [chemin vers le fichier .js contenant la balise %DATA%] [chiffre minimum pour la generation aléatoire] [chiffre maximum pour la generation aléatoire] [separateur]
+php auto_data.php [lien du flux csv] [chemin vers le fichier .js contenant la balise %DATA%] [chiffre minimum pour la generation aléatoire] [chiffre maximum pour la generation aléatoire] [separateur des differentes données du flux]
 
 Le programme va déterminer un chiffre aléatoire entre le minimum et le maximum. Afin d'obtenir un chiffre voulu, mettre le minimum et le maximun à la valeur de ce dernier.
 
